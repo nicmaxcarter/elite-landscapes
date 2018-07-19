@@ -357,12 +357,23 @@ footer {
   background-color: white;
   color: gray;
   text-align: center;
+  padding: 10px 0px;
 }
 
 footer p {
   padding: 0;
   margin: 0;
   font-size: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 /* Mobile Landscape ----------------------------------------------------- */

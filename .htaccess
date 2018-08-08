@@ -1,0 +1,4 @@
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^elitelandscapesvaldosta.com [NC]
+RewriteRule ^(.*)$ http://www.elitelandscapesvaldosta.com/$1 [L,R=301,NC]

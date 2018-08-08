@@ -23,12 +23,12 @@ $content = $_POST['inputTextArea'];
 
 $to = "elitevaldosta@gmail.com";
 
-$subject = "New Contact Form Submission!";
+$subject = "New Form Submission to Elite Landscapes!";
 
 // $message = $fname+" "+$lname+"\n"
 //     +$email+"\n"+$phone;
 
-$message = "A new message has been sent!
+$message = "You have a new submission to elitelandscapes.com!
     \r\nName: $name
     \r\nEmail: $email
     \r\nPhone: $phone

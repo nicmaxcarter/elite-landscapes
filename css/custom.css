@@ -68,7 +68,7 @@ section {
 
 #hero,
 #heroGallery {
-  background: url("./assets/Final Images/hero.jpg") 50% 0 no-repeat;
+  background: url("../assets/Final Images/hero.jpg") 50% 0 no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 650px;
@@ -249,13 +249,11 @@ section {
   margin: 5px 0px 5px 0px;
 }
 
-
-
 /* Testimonials */
 
 #testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./assets/Final Images/testimonial-background.jpg");
+    url("../assets/Final Images/testimonial-background.jpg");
   background-size: cover;
   background-position: 50% 40%;
   min-height: 400px;
@@ -267,7 +265,7 @@ section {
 
 .testimonial {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -276,7 +274,6 @@ section {
 .testimonial.title {
   text-align: right;
   justify-content: flex-end;
- 
 }
 
 .testimonial.title h1 {
@@ -289,15 +286,11 @@ section {
 
 .testimonial.paragraph {
   text-align: left;
-  
 }
 
 .testimonial-text {
   margin-bottom: 0px;
 }
-
-
-
 
 /*Photo Gallery*/
 
@@ -346,7 +339,7 @@ section {
 
 #info {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./assets/Final Images/contact-bg.jpg");
+    url("../assets/Final Images/contact-bg.jpg");
   background-size: cover;
   min-height: 500px;
   /* padding: auto; */
@@ -434,12 +427,22 @@ footer a:hover {
     height: 300px;
     font-size: 80px;
   }
+
+  .testimonial.title {
+    text-align: left;
+    justify-content: flex-start;
+  }
 }
 
 /* Mobile Portrait ----------------------------------------------------- */
 @media (max-width: 500px) {
   section {
     padding: 20px 0;
+  }
+
+  #testimonials {
+    height: 80vh;
+    min-height: 400px;
   }
 
   #heroGallery .box1 {
@@ -479,6 +482,11 @@ footer a:hover {
   .margin {
     padding: 0px 20px;
   }
+
+  .testimonial.title {
+    text-align: left;
+    justify-content: flex-start;
+  }
 }
 
 @media (min-width: 700px) {
@@ -491,6 +499,11 @@ footer a:hover {
   }
   #gallery .moveUp:hover {
     /*transform: scale(1.2);*/
+  }
+
+  .testimonial.title {
+    text-align: right;
+    justify-content: flex-end;
   }
 }
 

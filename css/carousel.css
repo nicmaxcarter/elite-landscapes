@@ -1,0 +1,19 @@
+.dots {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.dots-item {
+  display: inline-block;
+  background-color: #8a8a8a;
+  border-radius: 20px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.dots-item--active {
+  background-color: #dddddd;
+}
